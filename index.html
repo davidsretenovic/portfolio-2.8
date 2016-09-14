@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>David Sretenovic</title>
+
+	<!-- meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- links -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,900&subset=latin,latin-ext" type="text/css">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top"> <!-- removed role="navigation" -->
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<header class="name navbar-brand">
+					<a href="#">DS</a>
+				</header><!-- end name -->
+			</div><!-- end navbar-header -->
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#testimonials">Testimonials</a></li>
+				</ul>
+			</div><!-- end navbar-collapse -->
+		</div><!-- end container-fluid -->
+	</nav><!-- end nav -->
+
+	<!-- main -->
+	<main id="site-main">
+
+		<!-- hero section -->
+		<div class="hero" id="main-hero">
+
+			<div class="hero-content">
+				<h1 class="hero-title">This is David's website</h1>
+				<p>The best and brightest website ever.</p>
+
+				<a href="#intro">Learn More</a>
+				<a href="#contact">Ask Me</a>
+
+			</div>
+
+		</div>
+
+		<!-- features -->
+
+		<section class="site-section" id="intro">
+			<div class="site-section-inside">
+				<div class="section-header">
+					<h2>Key Features</h2>
+				</div><!-- end section-header -->
+
+				<div class="row row-grid" id="feature-row">
+
+					<div class="col-sm-12 col-md-4 col-lg-4 feature-box" id="feature1">
+						<img src="img/star.png" alt="Easy to Use">
+						<h5>Easy to use</h5>
+						<p>So easy a toddler can use it</p>
+						<br>
+						<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Easy to Use">See how easy &raquo;</button>
+
+					</div><!-- end feature1 -->
+
+					<div class="col-sm-12 col-md-4 col-lg-4 feature-box" id="feature2">
+						<img src="img/like.png" alt="Fun to Use">
+						<h5>Fun to use</h5>
+						<p>As fun as a bouncy house!</p>
+						<br>
+						<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Fun to Use">See how fun &raquo;</button>
+
+					</div><!-- end feature2 -->
+
+					<div class="col-sm-12 col-md-4 col-lg-4 feature-box" id="feature3">
+						<img src="img/heart.png" alt="You'll love it">
+						<h5>You'll love it</h5>
+						<p>The best thing since sliced bread!</p>
+						<br>
+						<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="You'll love it">Much love &raquo;</button>
+
+					</div><!-- end feature3 -->
+				
+				</div><!-- end feature-row -->
+
+			</div><!-- end site-section-inside -->
+
+		</section>
+		
+		<!-- about -->
+		
+		<section class="hero hero-about" id="about" data-stellar-background-ratio="0.3">
+			<div class="hero-content">
+				<h1 class="hero-title">About David</h1>
+				<p>The greatest web dev ever.</p>
+				
+				<div class="row row-grid">
+					<!-- <h2 class="learn-more">Learn More</h2> -->
+					<div class="modal-button">
+						<!-- Small modal button -->
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg" id="btn-learn-more">
+							<h2 class="learn-more">Learn More</h5>
+						</button>
+					</div><!-- end modal-button -->
+
+					<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby-"myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="myModalLabel">RESUME EXAMPLE</h4>
+								</div>
+								<div class="modal-body">
+									Resume example text, should be removed
+									<embed id="modalembed" src="./docs/Rob.Pucci.SysAdmin.2012.pdf"></embed>
+								</div><!-- end modal-body -->
+
+							</div><!-- end modal content -->
+
+						</div><!-- end modal-dialog-modal-sm -->
+
+					</div><!-- end modal fade -->
+
+				</div><!-- end row -->
+
+			</div><!-- end hero-content -->
+
+		</section><!-- end about -->
+
+		<section class="site-section" id="portfolio">
+			<div class="site-section-inside">
+				<div class="section-header">
+					<h2> Portfolio </h2>
+				</div> <!-- end section header -->
+
+				<div class="row row-grid" id="porfolio-row-1">
+					<div class="col-sm-12 col-md-4 col-lg-4 feature-box">
+						<h5>Parallax</h5>
+						<p>Uses 'stellar.js' for parallax effects</p>
+					</div>
+
+					<div class="col-sm-12 col-md-4 col-lg-4 feature-box">
+						<h5>Scrollspy</h5>
+						<p>Still to be re-implemented!</p>
+					</div>
+
+					<div class="col-sm-12 col-md-4 col-lg-4 feature-box">
+						<h5>Social Media</h5>
+						<p>Still to be re-implemented!</p>
+					</div>
+				
+				</div><!-- end portfolio-row-1 -->
+
+				<div class="row row-grid" id="porfolio-row-2">
+
+					<div class="col-sm-12 col-md-4 col-lg-4 feature-box">
+						<a href="#" title="Tooltip" id="tt-01">
+							<h5>Tooltips</h5>
+						</a>
+						<p>This tooltip covers the header</p>
+					</div>
+
+					<div class="col-sm-12 col-md-4 col-lg-4 feature-box">
+						<a href="#" title="JavaScript">
+							<h5>JavaScript</h5>
+						</a>
+						<p>Uses a 'scripts.js' file</p>
+					</div>
+
+					<div class="col-sm-12 col-md-4 col-lg-4 feature-box">
+						<h5>Conditional Statements</h5>
+						<p>Still to be implemented!</p>
+					</div>
+				
+				</div><!-- end portfolio-row-2 -->
+
+			</div><!-- end site-section-inside -->
+
+		</section> <!-- end about section -->
+
+		<!-- testimonials -->
+
+		<section class="site-section site-section-secondary" id="testimonials">
+			<div class="site-section-inside">
+				<div class="section-header">
+					<h2>What the people say</h2>
+				</div>
+
+				<div class="testimonial-box">
+					<div class="testimonial-content">
+						Their service is the best!
+					</div>
+					<div class="testimonial-author">
+						<img class="img-repsonsive" src="img/cage400.png" alt="Brian Cage">
+						<h5>Brian Cage</h5>
+						<span>He's not a man, he's a Machine!</span>
+					</div>
+				</div>
+
+				<div class="testimonial-box">
+					<div class="testimonial-content">
+						Their service is the best!
+					</div>
+					<div class="testimonial-author">
+						<img class="img-repsonsive" src="img/savage400.png" alt="Randy Savage">
+						<h5>Randy Savage</h5>
+						<span>The cream of the crop</span>
+					</div>
+				</div>
+
+				<div class="testimonial-box">
+					<div class="testimonial-content">
+						Their service is the best!
+					</div>
+					<div class="testimonial-author">
+						<img class="img-repsonsive" src="img/hart400.png" alt="Bret Hart">
+						<h5>Bret Hart</h5>
+						<span>The best there was</span>
+					</div>
+				</div> <!-- end testimonial-box -->
+			</div> <!-- end site-section-inside -->
+		</section>
+
+		<!-- work examples -->
+		<section class="jumbotron work-examples" id="work-example-1">
+			<div class="hero-content">
+				<h2>Here are some work examples</h2>
+			</div><!-- end hero-content -->
+		</section><!-- end section hero -->
+		<section>
+			<div class="row row-grid" id="work-example-box">
+				<div class="col-sm-12 col-md-6 col-lg-6" id="work-example-left">
+					<img class="img-responsive" src="img/mid-laptop.jpg" alt="Laptop">
+				</div><!-- end work-example-left -->
+				<div class="col-sm-12 col-md-6 col-lg-6" id="work-example-right">
+					<br>
+					<p>This is some text</p>
+					<br>
+				</div><!-- end work-example-right -->
+			</div><!-- end work-example-box -->
+		</section>
+		<section class="jumbotron work-examples" id="work-example-2">
+			<div class="hero-content">
+				<h2>Here are more work examples</h2>
+			</div><!-- end hero-content -->
+		</section><!-- end section hero -->
+
+		<!-- contact -->
+		<section class="site-section site-section-secondary" id="contact">
+			<div class="section-header">
+				<h2>Contact Me</h2>
+			</div><!-- end section-header -->
+			<div class="site-section-inside">
+				<div class="row row-grid">
+					<div class="col-sm-12 col-md-4 col-lg-4" id="contact-details">
+						<h3>David Sretenovic</h3>
+						<p>Systems Engineer, Front-end Web Developer, Scotch afficionado</p>
+						<p><span class="glyphicon glyphicon-home"></span> Australia</p>
+						<p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:asdfasdfasdf"> someone@somewhere.com</a></p>
+						<p><span class="glyphicon glyphicon-earphone"></span> +61 3 1234 5678</p>
+						<p><span class="glyphicon glyphicon-globe"></span><a href="https://www.github.com/davidsretenovic"> GitHub</a></p>
+      		</div> <!-- end id contact-details -->
+					<div class="col-sm-12 col-md-8 col-lg-8 contact-form">
+						<form>
+						<!-- name -->
+							<div class="form-group">
+								<label class="control-label" for="input-name">Your Name</label>  
+								<div>
+									<input required="required" id="input-name" name="input-name" type="text" placeholder="Enter Your Name" class="form-control input-md">
+									<span class="help-block">Enter your full name</span>  
+								</div>
+							</div>
+
+								<!-- phone -->
+							<div class="form-group">
+								<label class="control-label" for="input-phone">Your Phone Number</label>  
+								<div>
+									<input maxlength=10 minlength=10 id="input-phone" name="input-phone" type="text" placeholder="Enter Your Phone Number" class="form-control input-md">
+									<span class="help-block">Enter your mobile number</span>  
+								</div>
+							</div>
+
+								<!-- email -->
+							<div class="form-group">
+								<label class="control-label" for="input-email">Your Email</label>  
+								<div>
+									<input required="required" id="input-email" name="input-email" type="email" placeholder="Please enter your email address" class="form-control input-md">
+									<span class="help-block">Input a valid email address</span>  
+								</div>
+							</div>
+
+								<!-- message -->
+							<div class="form-group">
+								<label class="control-label" for="input-message">Your Message</label>
+								<div>
+									<textarea style="resize:none" cols="40" rows="5" class="form-control" id="input-message" name="input-message">Please input your message here</textarea>
+									<p id="char-count"></p>
+									<p id="visible-comment"></p>
+									<h4 id="submit-result"></h4>
+								</div>
+							</div>
+
+							<!-- submit button -->
+							<div class="form-group">
+							<!-- <label class="control-label" for="input-submit">Submit</label> -->
+								<div>
+									<button id="input-submit" name="input-submit" class="btn btn-primary">Submit</button>
+								</div>
+							</div>
+						</form> <!-- form -->
+					</div><!-- end contact-form -->
+				</div><!-- end row row-grid -->
+			</div><!-- end site-section-inside -->
+
+		</section>
+
+	</main><!-- end main -->
+
+	<!-- footer -->
+	<footer id="footer">
+
+		<img src="img/star.png" alt="Footer Logo">
+		<span>My Website<br>Copyright &copy; 2016-3010</span>
+
+	</footer>
+
+	<!-- Scripts -->
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Bootstrap core JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- work / CF 2.8-->
+	<script src="js/work.js"></script>
+	<!-- custom -->
+	<script src="js/scripts.js"></script>
+</body>
+</html>
