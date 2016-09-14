@@ -359,4 +359,11 @@ footer img   {
 		width: 100%;
 		display: block;
 	}
+
+	/* accordion */
+	#accordion {
+		width: 80%;
+		margin: 0 auto;
+		padding-bottom: 30px;
+	}
 }
