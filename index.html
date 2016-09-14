@@ -37,6 +37,7 @@
 					<li><a href="#about">About</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#features">Features</a></li>
+					<li><a href="#faq">FAQ</a></li>
 					<li><a href="#testimonials">Testimonials</a></li>
 				</ul>
 			</div><!-- end navbar-collapse -->
@@ -157,7 +158,7 @@
 
 					<div class="col-sm-12 col-md-4 col-lg-4 feature-box">
 						<h5>Scrollspy</h5>
-						<p>Still to be re-implemented!</p>
+						<p>Implemented! Nav links need to be changed</p>
 					</div>
 
 					<div class="col-sm-12 col-md-4 col-lg-4 feature-box">
@@ -185,10 +186,28 @@
 
 					<div class="col-sm-12 col-md-4 col-lg-4 feature-box">
 						<h5>Conditional Statements</h5>
-						<p>Still to be implemented!</p>
+						<p>Check the Submit button in the contact form</p>
 					</div>
 				
 				</div><!-- end portfolio-row-2 -->
+
+				<div class="row row-grid" id="porfolio-row-3">
+					<div class="col-sm-12 col-md-4 col-lg-4 feature-box">
+						<h5>Carousel</h5>
+						<p>Working on it currently</p>
+					</div>
+
+					<div class="col-sm-12 col-md-4 col-lg-4 feature-box">
+						<h5>Portfolio Section</h5>
+						<p>Still to be re-implemented!</p>
+					</div>
+
+					<div class="col-sm-12 col-md-4 col-lg-4 feature-box">
+						<h5>Accordion</h5>
+						<p>Re-implemented, and better than before!</p>
+					</div>
+				
+				</div><!-- end portfolio-row-1 -->
 
 			</div><!-- end site-section-inside -->
 
@@ -249,9 +268,88 @@
 					<img class="img-responsive" src="img/mid-laptop.jpg" alt="Laptop">
 				</div><!-- end work-example-left -->
 				<div class="col-sm-12 col-md-6 col-lg-6" id="work-example-right">
-					<br>
+					<!-- <br>
 					<p>This is some text</p>
-					<br>
+					<br> -->
+					<h2 id="faq">FAQ</h2>
+					
+					<!-- accordion -->
+
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingOne">
+								<h4 class="panel-title">
+									<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Who
+									</a>
+								</h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+								<div class="panel-body">
+									<p>David Sretenovic</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingTwo">
+								<h5 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										What
+									</a>
+								</h5>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								<div class="panel-body">
+									<p>The cream of the crop.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingThree">
+								<h5 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										<p>When</p>
+									</a>
+								</h5>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+								<div class="panel-body">
+									<p>Since 2009.<p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingFour">
+								<h5 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+										Where
+									</a>
+								</h5>
+							</div>
+							<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+								<div class="panel-body">
+									<p>Australia. New Zealand. Hong Kong. Singapore. United States of America. Worldwide.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingFive">
+								<h5 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+										Why
+									</a>
+								</h5>
+							</div>
+							<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+								<div class="panel-body">
+									<p>Nobody does it better.</p>
+								</div><!-- end panel-body -->
+							</div>
+						</div>
+					</div><!-- end panel-group -->
+
+					<!-- end accordion -->
+
 				</div><!-- end work-example-right -->
 			</div><!-- end work-example-box -->
 		</section>
