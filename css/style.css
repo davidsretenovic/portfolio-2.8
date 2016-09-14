@@ -144,12 +144,12 @@ header #logo img {
 .hero-about {
 	background-image: url('../img/hero-crowdedbuildings-comp.jpg');
 	background-attachment: fixed;
-  background-position: center;
+	background-position: center;
 	background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .learn-more {
@@ -263,6 +263,10 @@ header #logo img {
 }
 
 /* accordion */
+#accordion {
+	width: 80%;
+	margin: 0 auto;
+}
 
 .panel-title {
 	font-size: 18px;
