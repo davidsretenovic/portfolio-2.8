@@ -35,14 +35,10 @@ header #logo img {
 	vertical-align: middle;
 }
 
-/* main navigation */
-.nav {
-
-}
-
 /* site-main */
 #site-main {
 	padding-top: 1%;
+	margin-top: 60px;
 }
 
 /* hero */
