@@ -215,6 +215,32 @@ header #logo img {
 	font-size: 14px;
 }
 
+/* portfolio */
+#portfolio {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.portfolio-row {
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.portfolio-box {
+	height: 300px !important;
+	margin: 0 auto !important;
+	padding: 2%;
+}
+
+.portfolio-pic {
+	vertical-align: middle;
+	height: 100% !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* carousel */
 .carousel-buttons {
 	padding-top: 2%;
