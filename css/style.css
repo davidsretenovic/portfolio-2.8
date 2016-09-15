@@ -181,8 +181,8 @@ header #logo img {
 
 /* testamonial boxes */
 .testimonial-box {
-	display: inline-block;
-	width: 33%;
+	/* display: inline-block; */
+	/* width: 33%; */
 	padding: 20px 30px;
 }
 
@@ -213,6 +213,21 @@ header #logo img {
 .testimonial-author span {
 	color: #999;
 	font-size: 14px;
+}
+
+/* carousel */
+.carousel-buttons {
+	padding-top: 2%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.carousel {
+	padding-top: 0;
+}
+
+.carousel .item {
+	height: 700px;
 }
 
 /* examples */
@@ -361,9 +376,14 @@ footer img   {
 	}
 
 	/* accordion */
-	#accordion {
+	#work-example-right {
 		width: 80%;
 		margin: 0 auto;
 		padding-bottom: 30px;
+	}
+
+	/* carousel */
+	.carousel .item {
+		height: 300px;
 	}
 }
