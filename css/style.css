@@ -312,8 +312,10 @@ header #logo img {
 }
 
 #work-example-right {
+	/* height: 500px; */
   text-align: center;
 	padding-top: 2%;
+	padding-bottom: 2%;
 	/* margin-bottom: 15px; */
 	font-size: 20px;
 	color: #999;
