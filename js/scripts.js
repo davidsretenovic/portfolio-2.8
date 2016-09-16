@@ -79,9 +79,9 @@ $(document).ready(function(){
   // 2.8 - Work
   console.log(works);
   for(var i = 0; i < works.length; ++i ) { 
-    $("#work").append("\
-    <div class='col-sm-6 col-md-3'>\
-      <img class='img-responsive' src='img/kitty.jpg'>\
+    $("#portfoli-row-1").append("\
+    <div class='col-sm-12 col-md-6 col-lg-3 portfolio-box'>\
+      <img class='img-responsive portfolio-pic' src='" + works[i] + "'>\
     </div>\
     ");
   };
