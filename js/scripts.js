@@ -75,17 +75,22 @@ $(document).ready(function(){
       $('#submit-result').html("Your message has been received");
       return false;
     };
+  });
 
   // 2.8 - Work
   console.log(works);
   for(var i = 0; i < works.length; ++i ) { 
-    $("#work").append("\
-    <div class='col-sm-6 col-md-3'>\
-      <img class='img-responsive' src='img/kitty.jpg'>\
+    $("#portfolio-row-1").append("\
+    <div class='col-sm-12 col-md-6 col-lg-3 portfolio-box'>\
+      <img class='img-responsive portfolio-pic' src='" + works[i] + "'>\
     </div>\
     ");
+    var images = $("#portfolio-row-1 img");
+    if(i%2 === 0){
+      $(images[i]).css("border", "2px solid DodgerBlue");
+    } else {
+      $(images[i]).css("border", "2px solid salmon");
+    };
   };
-
-});
 
 }); // end document ready
