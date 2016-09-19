@@ -75,6 +75,7 @@ $(document).ready(function(){
       $('#submit-result').html("Your message has been received");
       return false;
     };
+  });
 
   // 2.8 - Work
   console.log(works);
@@ -85,7 +86,5 @@ $(document).ready(function(){
     </div>\
     ");
   };
-
-});
 
 }); // end document ready
